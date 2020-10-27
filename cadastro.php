@@ -12,14 +12,14 @@
         <div class="card">
             <h1>CADASTRE-SE</h1>
 
-            <form action="cadastroUsuario.php" method="POST">
+            <form action="cadastroUsuario.php" method="post">
 
                 <input type="text" name="nome" placeholder="nome">
                 <input type="email" name="email" placeholder="e-mail">
                 <input type="password" name="senha" placeholder="senha">
                 <input type="password" nome="conf_senha" placeholder="reply senha">
 
-                <button type="submit">CADASTRE-SE</button>
+                <input type="submit">CADASTRE-SE</button>
 
             </form>
 
