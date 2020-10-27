@@ -11,12 +11,16 @@
     <main>
         <div class="card">
             <h1>CADASTRE-SE</h1>
-            <form action="">
-                <input type="text" placeholder="nome">
-                <input type="email" placeholder="e-mail">
-                <input type="password" placeholder="senha">
-                <input type="password" placeholder="reply senha">
-                <button>CADASTRE-SE</button>
+
+            <form action="cadastroUsuario.php" method="POST">
+
+                <input type="text" name="nome" placeholder="nome">
+                <input type="email" name="email" placeholder="e-mail">
+                <input type="password" name="senha" placeholder="senha">
+                <input type="password" nome="conf_senha" placeholder="reply senha">
+
+                <button type="submit">CADASTRE-SE</button>
+
             </form>
 
         </div>
